@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header>
+        <div class="logo-container">
+            <img src="./images/logo.avif" alt="Logo"> 
+            <span class="website-name">International Digital Library</span>
+        </div>
+    </header>
+
+    <!-- Login Section -->
+    <div class="glass-container">
+        <div class="login-box">
+            <h2>OTP Verification</h2>
+            <form action="/verifyotp" method="POST">
+
+                <input type="tel" id="phone" name="phone" required placeholder="Phone Number">
+                <input type="text" id="otp" name="otp" required placeholder="One Time Password">
+                <button type="submit">verify</button>
+                
+            </form>
+
+        
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Hotel Booking. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header>
+        <div class="logo-container">
+            <img src="./images/logo.avif" alt="Logo">
+            <span class="website-name">International Digital Library</span>
+        </div>
+    </header>
+
+    <!-- Login Section -->
+    <div class="glass-container-register">
+        <div class="login-box">
+            <h2>Register</h2>
+            <form action="/register" method="POST" enctype="application/x-www-form-urlencoded">
+                
+                <input type="text" id="name" name="name" required placeholder="user name">
+                <input type="tel" id="phone" name="phone" required placeholder="Phone Number">
+                <input type="password" id="password" name="password" required placeholder="Password">
+                 
+                <button type="submit">Register</button>
+
+                <p> have an account? <a href="index.html" id="register">Login</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Hotel Booking. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
