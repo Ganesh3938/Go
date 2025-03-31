@@ -79,7 +79,7 @@ func GenerateOtp() string {
 // Send a static OTP via Twilio
 func sendOTP(phoneNumber string,otp string) {
 	accountSid := "AC03ece87532c421324b852da975752a24"  
-	authToken := "b4876e166529c56f0f50891c4f542f16"    
+	authToken := "4fcd2bed4a1726f50d52d6fca16835a2"    
 	twilioPhone := "+12724221930" 
 
 	messageBody := "Your OTP is: " + otp
